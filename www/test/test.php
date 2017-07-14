@@ -54,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
         // 检测 URL 地址是否合法
         if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$website))
         {
-            $websiteErr = "非法的 URL 的地址"; 
+            $websiteErr = "非法的URL的地址"; 
         }
     }
     
